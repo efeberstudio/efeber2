@@ -6,7 +6,7 @@
 <img src="https://img.shields.io/badge/Release-Beta%200.6-E53935" alt="Beta 0.6">
 <img src="https://img.shields.io/badge/Focus-Glide%20Vehicles-C62828" alt="Glide Vehicles">
 </p>
-<p align="center"><a href="https://github.com/efeberstudio/efeber2/releases"><strong>⬇ DOWNLOAD EFEBER2</strong></a> · <a href="docs/INSTALLATION.md">Getting Started</a> · <a href="docs/FAQ.md">FAQ</a> · <a href="https://github.com/efeberstudio/efeber2/issues">Report an Issue</a></p>
+<p align="center"><a href="https://github.com/efeberstudio/efeber2/releases/download/v0.6-beta/efeber2_beta_0.6.exe"><strong>⬇ DOWNLOAD WINDOWS EXE DIRECTLY</strong></a> · <a href="docs/INSTALLATION.md">Getting Started</a> · <a href="docs/FAQ.md">FAQ</a> · <a href="https://github.com/efeberstudio/efeber2/issues">Report an Issue</a></p>
 <p align="center"><strong>English</strong> | <a href="docs/tr/README.md">Türkçe</a></p>
 
 ---
@@ -60,7 +60,11 @@ A secondary toolkit for preparing supported character models as **Garry's Mod pl
 
 **Current documented version:** `efeber2_beta_0.6` · Windows 10/11 (64-bit)
 
-### **[⬇ Get EFEBER2 from GitHub Releases](https://github.com/efeberstudio/efeber2/releases)**
+### **[⬇ DOWNLOAD EFEBER2 BETA 0.6 — WINDOWS EXE](https://github.com/efeberstudio/efeber2/releases/download/v0.6-beta/efeber2_beta_0.6.exe)**
+
+**[View the official Release page](https://github.com/efeberstudio/efeber2/releases/tag/v0.6-beta)**
+
+> **Looking for the program? Download the EXE above.** GitHub's automatic **Source code (zip / tar.gz)** archives are *not* the Windows application and do not contain the executable. You do **not** need to download the source code to run EFEBER2.
 
 Open the release, expand **Assets**, and download `efeber2_beta_0.6.exe` if it is listed. The Windows executable is distributed through Releases, not the repository's source file list.
 
