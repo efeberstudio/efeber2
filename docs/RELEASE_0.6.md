@@ -1,20 +1,18 @@
-# EFEBER2 Beta 0.6 — Yayın notları
+# EFEBER2 Beta 0.6 — Release Notes
 
-**Ana odak: Garry's Mod Glide araç üretimi ve Simfphys → Glide dönüşümü.**
+**The Glide-focused Garry's Mod vehicle creation and conversion studio.**
 
-EFEBER2; GTA SA ve desteklenen GTA V Legacy araçlarını Glide'a hazırlamak için 3D düzenleme, kaplama, tekerlek, koltuk, motor, korna ve sürüş profilleri sunar. Simfphys modlarını Steam Workshop bağlantısıyla Glide'a dönüştürme bölümü de içerir.
+EFEBER2 provides a 3D environment to prepare supported GTA SA / GTA V Legacy vehicle assets for **Glide**, including material editing, wheel and seat alignment, engine sounds, horns, and driving presets. It also attempts to convert compatible Steam Workshop **Simfphys vehicles into Glide addons**.
 
-## Beta 0.6 değişiklikleri
-- Simfphys tekerlek yüksekliği ve fiziksel merkez hesabı iyileştirildi.
-- Sürücü koltuğunu tavana yerleştirebilen hatalı tahmin üzerinde düzeltmeler yapıldı.
-- Önceki sürümlerdeki şeffaf oturma önizlemesi, grup ölçekleme ve Glide sürüş ayarları korundu.
+## Changes in beta 0.6
+- Improved Simfphys wheel-height and physical wheel-center calculations.
+- Revised driver-seat fallback positioning to reduce incorrect rooftop driver placement.
+- Preserved previously added transparent seating preview, group scaling, and Glide vehicle configuration tools.
 
-## Kurulum
-1. GitHub **Releases** altında `efeber2_beta_0.6.exe` dosyasını indir.
-2. Windows 64-bit bilgisayarında çalıştır.
-3. Glide araçlarını oyunda kullanmak için GMod ve Glide eklentisini yükle.
-4. Model/Workshop bağlantısını yükleyip çıktıyı GMod'da test et.
+## Installation
+Download `efeber2_beta_0.6.exe` from the release Assets (if published), run on Windows 64-bit, and follow the [Glide setup guide](INSTALLATION.md).
 
-**Bilinen sınırlar:** Özel Simfphys tekerlek, koltuk ve model eksenleri hâlâ manuel düzeltme gerektirebilir. Bu bağımsız bir beta projesidir ve Glide geliştiricilerinin resmî ürünü değildir.
+## Limitations
+Complex Simfphys wheel, suspension, and driver attachment configurations can still require manual adjustment. This is independent beta software, not an official Glide product.
 
-Hata bildirimi: https://github.com/efeberstudio/efeber2/issues
+[Report an issue](https://github.com/efeberstudio/efeber2/issues) · [Türkçe sürüm notları](tr/RELEASE_0.6.md)
