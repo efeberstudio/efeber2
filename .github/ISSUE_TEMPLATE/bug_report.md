@@ -1,26 +1,26 @@
 ---
-name: "Hata Bildirimi"
-about: "EFEBER2 Beta sorunu bildir"
+name: "Bug report"
+about: "Report an EFEBER2 beta issue"
 title: "[BUG] "
 labels: []
 assignees: []
 ---
 
-**Uygulama sürümü:** efeber2_beta_0.6
+**EFEBER2 version:** efeber2_beta_0.6
 
-**Bölüm:** Glide Araç Stüdyosu / Simfphys → Glide / Player Model
+**Affected area:** GTA → Glide / Simfphys → Glide / GMod Player Model
 
-**Kaynak mod / Steam Workshop bağlantısı:**
+**Source mod / Steam Workshop URL:**
 
-**Sorunu tekrar etmek için adımlar:**
+**Steps to reproduce:**
 1.
 2.
 3.
 
-**Beklenen sonuç:**
+**Expected behavior:**
 
-**Gerçekleşen sonuç:**
+**Actual behavior:**
 
-**Ekran görüntüsü / konsol veya derleme hataları:**
+**Screenshots or error logs:**
 
-> Özel dosya yollarını, kişisel bilgileri veya erişim anahtarlarını paylaşmayın.
+> Please remove private paths, personal data, passwords, and access tokens before posting.
