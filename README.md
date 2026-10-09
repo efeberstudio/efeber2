@@ -1,122 +1,99 @@
-<p align="center">
-  <img src="assets/efeber2.svg" width="94" alt="EFEBER2 logo">
-</p>
-
+<p align="center"><img src="assets/efeber2.svg" width="100" alt="EFEBER2"></p>
 <h1 align="center">EFEBER2 — GLIDE MODDING STUDIO</h1>
-
-<p align="center"><strong>GTA araçlarından Glide eklentisi oluştur • Simfphys araçlarını Glide'a dönüştür</strong></p>
-
+<p align="center"><strong>Turn GTA vehicles into Garry's Mod Glide addons. Convert Simfphys Workshop vehicles to Glide.</strong></p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Platform-Windows%2064--bit-222222" alt="Windows 64 bit">
-  <img src="https://img.shields.io/badge/Status-Public%20Beta-e63946" alt="Public Beta">
-  <img src="https://img.shields.io/badge/Focus-Garry's%20Mod%20Glide-c0392b" alt="Glide">
+<img src="https://img.shields.io/badge/Windows-64--bit-202020" alt="Windows">
+<img src="https://img.shields.io/badge/Release-Beta%200.6-E53935" alt="Beta 0.6">
+<img src="https://img.shields.io/badge/Focus-Glide%20Vehicles-C62828" alt="Glide Vehicles">
 </p>
-
-<p align="center">
-  <a href="https://github.com/efeberstudio/efeber2/releases"><strong>⬇ Sürümleri görüntüle</strong></a>
-  · <a href="docs/KURULUM.md">Kurulum ve kullanım</a>
-  · <a href="docs/SSS.md">Sık sorulan sorular</a>
-  · <a href="https://github.com/efeberstudio/efeber2/issues">Hata bildir / Öneri gönder</a>
-</p>
+<p align="center"><a href="https://github.com/efeberstudio/efeber2/releases"><strong>⬇ DOWNLOAD EFEBER2</strong></a> · <a href="docs/INSTALLATION.md">Getting Started</a> · <a href="docs/FAQ.md">FAQ</a> · <a href="https://github.com/efeberstudio/efeber2/issues">Report an Issue</a></p>
+<p align="center"><strong>English</strong> | <a href="docs/tr/README.md">Türkçe</a></p>
 
 ---
 
-## Glide araç yapmak artık daha erişilebilir
+## Build Glide vehicles without the usual complexity
 
-**EFEBER2**, Garry's Mod için **Glide araç eklentisi üretmeye** odaklanan bağımsız bir Windows mod geliştirme uygulamasıdır. GTA San Andreas ve desteklenen GTA V Legacy araç modellerini bir stüdyo içinde düzenleyip Glide için hazırlayabilir; Steam Workshop'taki desteklenen **Simfphys araç modlarını Glide'a dönüştürmeyi** deneyebilirsiniz.
+**EFEBER2 is a Windows modding studio built around Garry's Mod's Glide vehicle system.** Import supported GTA San Andreas and GTA V Legacy vehicle assets, configure your vehicle in a visual editor, and export a Glide addon. You can also attempt to convert compatible **Simfphys Steam Workshop vehicles directly into Glide addons**.
 
-Amaç, model, kaplama, tekerlek, koltuk, ses ve fizik ayarlarını farklı araçlar arasında taşımak zorunda kalmadan tek bir iş akışında toplamaktır.
+Instead of manually juggling meshes, textures, wheel positions, seats, sounds, and vehicle configurations, EFEBER2 brings the workflow together in one place.
 
-> **Public Beta — v0.6:** EFEBER2 gelişmektedir. Her kaynak araç veya özel Simfphys modunun kusursuz dönüşmesi garanti edilmez. Özellikle tekerlek yönleri, sürücü koltuğu, çarpışma modeli ve sürüş fiziği GMod içinde kontrol edilmelidir.
+> **Public beta notice:** EFEBER2 is still in active development. Compatibility depends on the original mod, and some vehicles require manual adjustments. Always test your exported vehicle in Garry's Mod.
 
-## 🚗 01 — GTA → Glide Araç Stüdyosu
+## 🚗 GTA → Glide Vehicle Studio
 
-Kendi **Glide aracınızı** tasarlamak ve Garry's Mod'a aktarmak için:
+**Create a custom Glide vehicle from supported GTA assets.**
 
-- **GTA SA DFF/TXD** ve desteklenen **GTA V Legacy** araçlarını içe aktarma
-- Gerçek zamanlı **3D araç önizlemesi**, parça seçme, tümünü seçme ve grup hâlinde ölçekleme
-- Tekerlek, sürücü ve yolcu koltuklarının konumlarını görüntüleme/düzenleme
-- Oturan insan referanslarıyla **şeffaf araç gövdesi** üzerinden koltuk hizalama
-- Kaplama/malzeme düzenleme ve GMod renk aracı için boyanabilir gövde seçimi
-- **Araç adı, motor sesi ve korna** belirleme; önizleme sesini uygulama içinde ayarlama
-- **Normal otomobil, spor otomobil, hafif ticari, minibüs ve ağır araç** sürüş profilleri
-- Modeli derleyip Glide eklentisi olarak dışa aktarma
+- Import **GTA San Andreas DFF/TXD** and supported **GTA V Legacy** vehicle assets
+- Inspect models in an interactive **3D viewport**
+- Select, edit, and scale individual parts or the whole vehicle
+- Adjust **wheel positions, driver seat, and passenger seats**
+- Preview seat alignment using human-sized references and a transparent car body
+- Edit materials, textures, and selectable paintable body parts
+- Choose **vehicle name, engine sound, and horn**
+- Select driving presets: **Normal Car, Sports Car, Light Commercial, Minibus, Heavy Vehicle**
+- Generate the vehicle's model and configuration for **Glide**
 
-**Örnek:** Bir GTA aracını yükleyin → 3D görünümde ölçeğini ve tekerleklerini ayarlayın → motor/korna, kaplama ve sürüş sınıfını seçin → Glide eklentisini oluşturun.
+### Typical workflow
 
-## 🔄 02 — Simfphys → Glide Converter
+**Import a GTA vehicle → Inspect and scale → Set wheels and seats → Select materials and sounds → Choose a driving preset → Export for Glide.**
 
-Halihazırda Simfphys için hazırlanmış bir aracı **Glide'a dönüştürmek** mi istiyorsunuz?
+## 🔄 Simfphys → Glide Converter
 
-1. Steam Workshop aracının bağlantısını kopyalayın.
-2. **Simfphys → Glide** ekranına bağlantıyı yapıştırın.
-3. Dönüştürmeyi başlatın.
-4. Çıkan eklentiyi Garry's Mod'da test edin.
+**Already have a Simfphys vehicle from the Steam Workshop? Give it a new life in Glide.**
 
-Desteklenen modlarda çok araçlı paket işleme, kaynak dosya/bağımlılık çözümleme ve tekerlek-koltuk dönüşümü bulunur.
+1. Copy the supported vehicle's **Steam Workshop URL**.
+2. Paste it into **Simfphys → Glide** in EFEBER2.
+3. Start the conversion.
+4. Test the generated Glide addon in Garry's Mod.
 
-**Beta uyarısı:** Kaynak araçların özel tekerlek sistemleri, eksenleri, attachment noktaları ve oturma konumları farklıdır. Otomatik işlem bazı araçlarda ek düzenleme gerektirebilir.
+EFEBER2 attempts to extract and translate supported vehicle definitions, assets, wheel positions, seat information, and dependencies. Multi-vehicle packages may also be supported.
 
-## 🧍 03 — GMod Player Model (ek modül)
+**Important:** Simfphys vehicles often use custom wheel models, suspension, attachments, and seating arrangements. Some conversions may require additional correction; one-click conversion is not a universal compatibility guarantee.
 
-EFEBER2 ayrıca desteklenen karakter modellerini **Garry's Mod Player Model** için hazırlamaya yardımcı bir bölüm içerir. Model/doku içe aktarma, UV/iskelet uyarlama ve çıktı hazırlama araçları mevcuttur. **CS2 hedef seçeneği bu sürümde bulunmaz.**
+## 🧍 GMod Player Model Tools
 
----
-
-## İndir ve başla
-
-**Son beta:** `efeber2_beta_0.6` · **Windows 10/11 — 64 bit**
-
-**[→ GitHub Releases sayfasına git](https://github.com/efeberstudio/efeber2/releases)**
-
-Release yayımlandığında **Assets** altındaki `efeber2_beta_0.6.exe` dosyasını indirin. Bu GitHub deposu belge ve duyuruları barındırır; **kaynak kodu açık kaynak lisansıyla yayımlanmamıştır.**
-
-### Glide için hızlı başlangıç
-
-1. EFEBER2'yi açın, **Glide Araç Stüdyosu** bölümüne girin.
-2. Kaynak araç modelini içe aktarın; modelin boyutunu, tekerleklerini ve koltuklarını kontrol edin.
-3. Kaplamayı ve GMod renk ayarını seçin.
-4. **Araç** sekmesinden isim, motor sesi, korna ve araç sınıfını ayarlayın.
-5. Garry's Mod `garrysmod` klasörünü doğrulayıp derleyin.
-6. Oyunda **Glide** eklentisinin yüklü olduğundan emin olun; aracı spawnlayıp test edin.
-
-**[→ Ayrıntılı kurulum ve Glide kullanımı](docs/KURULUM.md)**
-
-## Sık sorulan sorular
-
-**EFEBER2 tam olarak ne yapıyor?**  
-Öncelikle GTA araçlarını Glide'a hazırlamayı ve desteklenen Simfphys modlarını Glide'a çevirmeyi kolaylaştırır.
-
-**Her GTA aracı Glide'a dönüşür mü?**  
-Hayır. Kaynak modelin formatı ve yapısına bağlıdır. Fizik, materyal, hitbox, koltuk veya tekerlek düzeltmeleri gerekebilir.
-
-**Spor araba seçince gerçekten daha hızlı mı oluyor?**  
-Sürüş sınıfları Glide Lua/fizik değerlerini etkiler; elde edilen hız ve manevra davranışı modele göre farklılık gösterir.
-
-**Simfphys için sadece Workshop linki yeterli mi?**  
-Desteklenen modlarda bağlantıyla dönüştürme amaçlanır. Workshop erişimi, bağımlılıklar ve bazı özel araç yapıları ilave adım gerektirebilir.
-
-**Otomatik koltuklar ve tekerlekler her zaman doğru mu?**  
-Hayır. Beta hesaplamaları gelişmektedir; kaynak modelin attachment bilgileri eksik olabilir.
-
-**Oyunda Glide kurulu olmalı mı?**  
-Evet. Oluşturulan Glide araçlarını GMod'da kullanabilmek için Glide gereklidir.
-
-**Program ücretsiz mi, kaynak kodu açık mı?**  
-Bu depo beta dağıtımı ve belgeleri içindir. Kaynak kodu şu an açık kaynak olarak yayımlanmamıştır.
-
-**AI kaplama veya CS2 seçeneği var mı?**  
-Hayır. AI demo kaldırılmıştır; Player Model modülü GMod odaklıdır.
-
-**[→ Tüm sorular ve cevapları](docs/SSS.md)**
-
-## Hata bildirimi ve geri bildirim
-
-EFEBER2 beta olduğundan kullanıcı geri bildirimleri özellikle önemlidir. **[GitHub Issues](https://github.com/efeberstudio/efeber2/issues)** üzerinden kaynak Workshop bağlantısı, uygulama sürümü, ekran görüntüsü ve hatanın tekrarlanma adımlarıyla bildirim gönderebilirsiniz.
-
-**[Sürüm geçmişi](CHANGELOG.md)** · **[Kurulum](docs/KURULUM.md)** · **[Beta 0.6 sürüm notları](docs/RELEASE_0.6.md)**
+A secondary toolkit for preparing supported character models as **Garry's Mod player models**, including texture/UV and skeleton preparation. **CS2 export is not part of this beta.**
 
 ---
 
-<p align="center"><strong>EFEBER2</strong> · Made for the Garry's Mod modding community</p>
-<p align="center"><sub>Bağımsız topluluk projesidir; Facepunch, Valve, Rockstar veya Glide geliştiricilerinin resmî ürünü değildir. Üçüncü taraf modların haklarına ve kullanım izinlerine saygı gösterin.</sub></p>
+## Download and install
+
+**Current documented version:** `efeber2_beta_0.6` · Windows 10/11 (64-bit)
+
+### **[⬇ Get EFEBER2 from GitHub Releases](https://github.com/efeberstudio/efeber2/releases)**
+
+Open the release, expand **Assets**, and download `efeber2_beta_0.6.exe` if it is listed. The Windows executable is distributed through Releases, not the repository's source file list.
+
+**Requirements:** Windows 64-bit; Garry's Mod and the Glide addon to play exported Glide vehicles. Depending on your source mod, additional extraction or compilation dependencies may apply.
+
+**[Read the installation and Glide conversion guide →](docs/INSTALLATION.md)**
+
+## Frequently asked questions
+
+**Does EFEBER2 work with every GTA or Simfphys vehicle?**  
+No. Source models differ in axes, materials, wheels, suspension, and seat attachments. Some need manual work.
+
+**Does choosing Sports Car change how the car drives?**  
+The preset changes supported Glide configuration and physics values. Results depend on the vehicle and require in-game testing.
+
+**Can I convert a Simfphys Workshop item just by pasting the URL?**  
+That is the intended workflow for supported mods, but Workshop access, dependencies, or custom vehicle systems may need extra steps.
+
+**Is this an official Glide product?**  
+No. EFEBER2 is an independent community project, not affiliated with Glide's developers.
+
+**Is this repository open-source?**  
+Not currently. This repository provides documentation, beta announcements, and download links; no open-source license is granted for unpublished source code.
+
+**[Read the complete FAQ →](docs/FAQ.md)**
+
+## Help improve EFEBER2
+
+Encountered a problem with wheel alignment, driver positioning, a texture, or a conversion? Please [open an issue](https://github.com/efeberstudio/efeber2/issues) and include the app version, source Workshop URL (when applicable), reproduction steps, and a screenshot or error log.
+
+[Installation](docs/INSTALLATION.md) · [FAQ](docs/FAQ.md) · [Changelog](CHANGELOG.md) · [Beta 0.6 release notes](docs/RELEASE_0.6.md) · [Türkçe](docs/tr/README.md)
+
+---
+
+<p align="center"><strong>EFEBER2</strong> — Built for the Garry's Mod modding community.</p>
+<p align="center"><sub>Independent community project. Not affiliated with or endorsed by Facepunch, Valve, Rockstar Games, or the Glide development team. Respect third-party mod authors' permissions.</sub></p>
