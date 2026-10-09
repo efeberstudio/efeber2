@@ -1,26 +1,28 @@
-# EFEBER2 Beta sürüm geçmişi
+# EFEBER2 — Changelog
 
-## v0.6-beta — Simfphys iyileştirmeleri
-- Sürücü koltuğu hesaplamaları güncellendi.
-- Görsel teker merkezi ve fiziksel teker yüksekliği ayrı ele alındı.
-- Eksik bağlantı noktalarında tahmini teker yerleşimi iyileştirildi.
+## v0.6-beta — Simfphys corrections
+- Updated driver-seat placement calculations.
+- Separated visual wheel centers from physical wheel height.
+- Improved fallback wheel placement for missing attachment points.
 
-## v0.5-beta — Grup ölçekleme
-- Tümünü Seç ile seçili parçaların birlikte ölçeklenmesi.
-- Tekerlek ve koltuk referanslarının grup ölçeğine uyarlanması.
+## v0.5-beta — Group scaling
+- Scale multiple selected parts together.
+- Adjust wheel and seat reference positions during whole-vehicle scaling.
 
-## v0.4-beta — Koltuk önizlemesi
-- Oturan insanlarla birlikte şeffaf araç gövdesi önizlemesi.
-- Araç yüklenmeden görünen düzenleme düğmelerinin düzeltilmesi.
+## v0.4-beta — Transparent seat preview
+- Display the car body transparently with seated human references.
+- Hide editing controls until a vehicle is loaded.
 
-## v0.3-beta — Koltuk araçları
-- Tümünü Seç ve koltukları yeniden otomatik ayarlama.
+## v0.3-beta — Editor improvements
+- Added Select All and automatic seat adjustment controls.
 
-## v0.2-beta — Fizik / önizleme
-- Çarpışma, 3D etkileşim, ölçek ve dışa aktarma kontrolleri üzerinde iyileştirmeler.
+## v0.2-beta — Physics and 3D preview
+- Collision, 3D interaction, scale, and export validation improvements.
 
-## v0.1-beta — Glide sürüş ayarları
-- Araç adı, motor sesi, korna ve program içi dinleme seviyesi.
-- Normal, spor, hafif ticari, minibüs ve ağır araç sürüş profilleri.
+## v0.1-beta — Glide handling profiles
+- Vehicle name, engine sound, horn, and in-app preview volume.
+- Normal, Sports, Light Commercial, Minibus, and Heavy Vehicle presets.
 
-> Bunlar geliştirme notlarıdır; her özel modla oyun içi uyumluluk garantisi değildir.
+**Beta note:** These are development updates, not a guarantee that every third-party mod converts correctly.
+
+[Read in Turkish](docs/tr/CHANGELOG.md)
